@@ -15,7 +15,7 @@ Una vez estés listo para enviar tu PR entonces deberás hacer lo de siempre.
 - `git add .` (para guardar todos los cambios)
 - `git commit -m 'nombre para tus cambios'` Puedes usar mobile design, luego tablet design como sugerencias. Si envías un commit en español, perderás -10 puntos de experiencia.
 - `git push origin feature/yourgithubname` (nombre de la rama según se indicó arriba)
-- Luego de esto, tus cambios ya estarán en github y deberás crear el PR. Mira este video que te muestra como hacerlo.
+- Luego de esto, tus cambios ya estarán en GitHub y deberás crear el PR. [**Mira este video**](https://youtu.be/0g4YZCdiOfg) que te muestra como hacerlo.
 
 1. Como trabajaremos con git y GitHub, debes realizar al menos 3 pull request al repo original, uno con el diseño finalizado de mobile, otro con tablet y otro con desktop.
 2. Visita **[Lorem Picsum](https://picsum.photos/)**, este será el diseño a copiar.
