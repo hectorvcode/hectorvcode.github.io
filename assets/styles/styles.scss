@@ -1,10 +1,10 @@
 // CONFIG MODULES
-@import "modules/app";
-@import "modules/breakpoints";
-@import "modules/mixins";
-@import "modules/typography";
-@import "modules/variables";
+@import "modules/app.scss";
+@import "modules/breakpoints.scss";
+@import "modules/mixins.scss";
+@import "modules/typography.scss";
+@import "modules/variables.scss";
 
 // COMPONENTS
-@import "components/main";
-@import "components/hero";
+@import "components/main.scss";
+@import "components/hero.scss";
