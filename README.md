@@ -24,3 +24,6 @@ Una vez estés listo para enviar tu PR entonces deberás hacer lo de siempre.
 5. Se debe omitir la sección de List Images e Images Details.
 6. En el `footer` podemos dejar solo texto o bien usar el icono de preferencia omitiendo las brands del diseño.
 7. Empieza con la regla mobile first. Luego tablet y por último desktop. Esta página es responsiva por lo que si activas tus herramientas de desarrollo podrás ver como se adapta a diferentes tamaños.
+
+Nota: si los compiladores fallan usa sass desde la terminal.
+```sass --watch assets/styles/styles.scss:assets/styles/styles.css```
