@@ -49,7 +49,7 @@ html {
   font-size: 1.2rem;
   padding: 0.5rem 0;
 }
-.hero img.decoracion {
+.hero img.decoration {
   height: 200px;
   width: 300px;
   padding: 1rem;
@@ -69,6 +69,48 @@ html {
 }
 .section-one p {
   padding: 0 1rem;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0;
+}
+.section-two h2 {
+  padding: 2rem 1rem;
+  text-align: left;
+}
+.section-two p {
+  text-align: left;
+  padding: 0 1rem;
+}
+.section-two img.decoration {
+  height: 200px;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0;
+}
+.section-three h2 {
+  padding: 2rem 1rem;
+  text-align: left;
+}
+.section-three p {
+  text-align: left;
+  padding: 0 1rem;
+}
+.section-three img.decoration {
+  height: 200px;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
