@@ -113,4 +113,25 @@ html {
   border-radius: 25px;
 }
 
+.section-four {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0;
+}
+.section-four h2 {
+  padding: 2rem 1rem;
+  text-align: left;
+}
+.section-four p {
+  text-align: left;
+  padding: 0 1rem;
+}
+.section-four img.decoration {
+  height: 200px;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
 /*# sourceMappingURL=styles.css.map */
