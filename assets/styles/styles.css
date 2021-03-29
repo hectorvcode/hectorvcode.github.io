@@ -71,6 +71,21 @@ html {
   padding: 0 1rem;
 }
 
+/*
+.section-one{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f4f7fc;
+  padding: 5rem 0;
+  h2{
+    padding: 2rem 1rem;
+    font-size: 2rem;
+  }
+  p{
+    padding: 0 1rem;
+  }
+}*/
 .section-two {
   display: flex;
   flex-direction: column;
@@ -128,6 +143,48 @@ html {
   padding: 0 1rem;
 }
 .section-four img.decoration {
+  height: 200px;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.section-five {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0;
+}
+.section-five h2 {
+  padding: 2rem 1rem;
+  text-align: left;
+}
+.section-five p {
+  text-align: left;
+  padding: 0 1rem;
+}
+.section-five img.decoration {
+  height: 200px;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.section-six {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0;
+}
+.section-six h2 {
+  padding: 2rem 1rem;
+  text-align: left;
+}
+.section-six p {
+  text-align: left;
+  padding: 0 1rem;
+}
+.section-six img.decoration {
   height: 200px;
   width: 300px;
   padding: 1rem;

@@ -17,4 +17,19 @@
       padding: 1rem;
       border-radius: 25px;
     }
-  }
+}
+
+@mixin mix-section-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4f7fc;
+    padding: 5rem 0;
+    h2{
+      padding: 2rem 1rem;
+      font-size: 2rem;
+    }
+    p{
+      padding: 0 1rem;
+    }
+}

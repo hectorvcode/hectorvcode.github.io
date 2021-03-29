@@ -1,4 +1,9 @@
 .section-one{
+  @include mix-section-txt;
+}
+
+/*
+.section-one{
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -11,4 +16,4 @@
   p{
     padding: 0 1rem;
   }
-}
+}*/
