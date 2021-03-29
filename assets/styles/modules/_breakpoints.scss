@@ -22,22 +22,58 @@
       }
     }
   }
-  figure {
-    display: flex;
-    justify-content: center;
 
-    img.decoration {
-      width: 536px;
-      height: 354px;
+
+figure {
+  display: flex;
+  justify-content: center;
+  img.decoration {
+    width: 536px;
+    height: 354px;
+  }
+}
+
+  section.section-image{
+    pre.pre-code{
+      white-space: pre-wrap;
     }
   }
-
-
-
 }
 
 
 
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  header.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    article.article {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  section.section-one{
+    display: flex;
+    align-items: center;
+    article.container{
+      width: 50%;
+    }
+  }
+
+  section.section-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    article.article {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  article.article-sec-pic{
+    order: 1;
+  }
+
+}

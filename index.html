@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="hero">
-        <article>
+        <article class="article">
             <section class="sec-title">
                 <img class="logo" src="https://www.flaticon.com/svg/vstatic/svg/1829/1829552.svg?token=exp=1616975368~hmac=ab6359323aa3e4bed124c90b3c91f100" alt="Icon">
                 <h1 class="title">Lorem Picsum</h1>
@@ -23,18 +23,60 @@
 
     <main>
         <section class="section-one">
-            <h2>Easy to use, stylish placeholders</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
+            <article class="container">
+                <h2>Easy to use, stylish placeholders</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
+                    dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
+                    esse ex placeat praesentium, quas qui quidem similique.
+                </p>
+            </article>
         </section>
 
 
-        <section class="section-two">
-            <article>
-                <h2>Specific Image</h2>
+        <section class="section-two section-image">
+                <article class="article">
+                    <h2>Specific Image</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
+                        dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
+                        esse ex placeat praesentium, quas qui quidem similique.
+                    </p>
+                </article>
+                <figure>
+                    <img class="decoration img-deco" src="https://picsum.photos/2000/3000?random=2" alt="Random Image">
+                </figure>
+        </section>
+
+
+        <section class="section-three section-image">
+            <article class="article article-sec-pic">
+                <h2>Static Random Image</h2>
+                <p>
+                    Get the same random image every time based on a seed, bay adding /seed/{seed }
+                    to start of the url
+                </p>
+            </article>
+            <figure>
+                <img class="decoration img-deco" src="https://picsum.photos/seed/picsum/2000/3000?random=3" alt="Random Image">
+            </figure>
+        </section>
+
+
+        <section class="section-four section-image">
+            <article class="article">
+                <h2>GrayScale</h2>
+                <p>Get a grayscale image by appending ? grayscale to the end of the url</p>
+            </article>
+            <figure>
+                <img class="decoration img-deco" src="https://picsum.photos/seed/picsum/2000/3000?random=4?grayscale" alt="Random Image">
+            </figure>
+        </section>
+
+
+        <section class="section-five section-image">
+            <article class="article article-sec-pic">
+                <h2>Blur</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
                     dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
@@ -42,88 +84,78 @@
                 </p>
             </article>
             <figure>
-                <img class="decoration img-deco" src="https://picsum.photos/2000/3000?random=2" alt="Random Image">
-            </figure>
-        </section>
-
-
-        <section class="section-three">
-            <h2>Static Random Image</h2>
-            <p>
-                Get the same random image every time based on a seed, bay adding /seed/{seed }
-                to start of the url
-            </p>
-            <figure>
-                <img class="decoration img-deco" src="https://picsum.photos/seed/picsum/2000/3000?random=3" alt="Random Image">
-            </figure>
-        </section>
-
-
-        <section class="section-four">
-            <h2>GrayScale</h2>
-            <p>Get a grayscale image by appending ? grayscale to the end of the url</p>
-            <figure>
-                <img class="decoration img-deco" src="https://picsum.photos/seed/picsum/2000/3000?random=4?grayscale" alt="Random Image">
-            </figure>
-        </section>
-
-
-        <section class="section-five">
-            <h2>Blur</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
-            <figure>
                 <img class="decoration img-deco" src="https://picsum.photos/seed/picsum/2000/3000?random=5?blur=2" alt="Random Image">
             </figure>
         </section>
 
 
-        <section class="section-six">
-            <h2>Advanced Usage</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
+        <section class="section-six section-image">
+            <article class="article">
+                <h2>Advanced Usage</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
+                    dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
+                    esse ex placeat praesentium, quas qui quidem similique.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
+                    dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
+                    esse ex placeat praesentium, quas qui quidem similique.
+                </p>
+            </article>
             <figure>
                 <img class="decoration img-deco" src="https://picsum.photos/seed/picsum/2000/3000?random=6" alt="Random Image">
             </figure>
         </section>
 
 
-        <section class="section-seven">
-            <h2>List Images</h2>
-            <p>
-                Get a list of images by using the /v2/list endpoint
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
+        <section class="section-seven section-image">
+            <article class="article article-sec-pic">
+                <h2>List Images</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
+                    dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
+                    esse ex placeat praesentium, quas qui quidem similique.
+                </p>
+            </article>
+            <pre class="pre-code">
+                <code>
+                    [
+                        {
+                            "id": "0",
+                            "author": "Alejandro Escamilla",
+                            "width": 5616,
+                            "height": 3744,
+                            "url": "https://unsplash.com/...",
+                            "download_url": "https://picsum.photos/..."
+                        }
+                    ]
+                </code>
+            </pre>
         </section>
 
 
-        <section class="section-seven">
-            <h2>Image Details</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
-                dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
-                esse ex placeat praesentium, quas qui quidem similique.
-            </p>
+        <section class="section-seven section-image">
+            <article class="article">
+                <h2>Image Details</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur at
+                    dolorum esse facilis, in labore modi nesciunt provident ratione! Atque deleniti
+                    esse ex placeat praesentium, quas qui quidem similique.
+                </p>
+            </article>
+            <pre class="pre-code">
+                <code>
+                    {
+                        "id": "0",
+                        "author": "Alejandro Escamilla",
+                        "width": 5616,
+                        "height": 3744,
+                        "url": "https://unsplash.com/...",
+                        "download_url": "https://picsum.photos/..."
+                     }
+                </code>
+            </pre>
         </section>
 
     </main>
