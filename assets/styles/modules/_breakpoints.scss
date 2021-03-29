@@ -2,7 +2,40 @@
 @import "variables";
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  header.hero{
+    article{
+      section.sec-title{
+        display: flex;
+        justify-content: center;
+        h1{
+          margin-left: 1rem;
+        }
+      }
+    }
+    figure{
+      display: flex;
+      justify-content: center;
+      img.decoration{
+        width: 536px;
+        height: 354px;
+      }
+    }
+  }
+  figure {
+    display: flex;
+    justify-content: center;
+
+    img.decoration {
+      width: 536px;
+      height: 354px;
+    }
+  }
+
+
+
+}
+
 
 
 

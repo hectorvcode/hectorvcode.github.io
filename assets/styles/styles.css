@@ -8,6 +8,32 @@
   text-rendering: optimizeLegibility;
 }
 
+@media screen and (min-width: 768px) {
+  header.hero article section.sec-title {
+    display: flex;
+    justify-content: center;
+  }
+  header.hero article section.sec-title h1 {
+    margin-left: 1rem;
+  }
+  header.hero figure {
+    display: flex;
+    justify-content: center;
+  }
+  header.hero figure img.decoration {
+    width: 536px;
+    height: 354px;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+  }
+  figure img.decoration {
+    width: 536px;
+    height: 354px;
+  }
+}
 html {
   font-family: "Inter", sans-serif;
 }
@@ -28,31 +54,32 @@ html {
   padding: 0;
 }
 
-.hero {
+header {
   margin: 5rem 0;
   display: grid;
   grid-template-columns: 1fr;
 }
-.hero article {
+header article {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero article section.sec-title {
+header article section {
   text-align: center;
 }
-.hero article section.sec-title img.logo {
-  width: 3rem;
+header article section img.logo {
+  width: 4rem;
+  height: 4rem;
 }
-.hero article section.sec-title h1.title {
+header article section h1 {
   font-size: 2rem;
   padding: 0.5rem 0;
 }
-.hero article p {
+header article p {
   font-size: 1.2rem;
   padding: 0.5rem 0;
 }
-.hero img.decoration {
+header img {
   height: 200px;
   width: 300px;
   padding: 1rem;
@@ -88,7 +115,7 @@ html {
   text-align: left;
   padding: 0 1rem;
 }
-.section-two img.decoration {
+.section-two img {
   height: 200px;
   width: 300px;
   padding: 1rem;
@@ -109,7 +136,7 @@ html {
   text-align: left;
   padding: 0 1rem;
 }
-.section-three img.decoration {
+.section-three img {
   height: 200px;
   width: 300px;
   padding: 1rem;
@@ -130,7 +157,7 @@ html {
   text-align: left;
   padding: 0 1rem;
 }
-.section-four img.decoration {
+.section-four img {
   height: 200px;
   width: 300px;
   padding: 1rem;
@@ -151,7 +178,7 @@ html {
   text-align: left;
   padding: 0 1rem;
 }
-.section-five img.decoration {
+.section-five img {
   height: 200px;
   width: 300px;
   padding: 1rem;
@@ -172,7 +199,7 @@ html {
   text-align: left;
   padding: 0 1rem;
 }
-.section-six img.decoration {
+.section-six img {
   height: 200px;
   width: 300px;
   padding: 1rem;

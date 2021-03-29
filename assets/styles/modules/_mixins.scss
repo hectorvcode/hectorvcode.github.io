@@ -11,7 +11,7 @@
       text-align: left;
       padding: 0 1rem;
     }
-    img.decoration {
+    img {
       height: 200px;
       width: 300px;
       padding: 1rem;
@@ -32,4 +32,13 @@
     p{
       padding: 0 1rem;
     }
+}
+
+@mixin mix-img-deco{
+  figure{
+    img.decoration{
+      width: 536px;
+      height: 354px;
+    }
+  }
 }
